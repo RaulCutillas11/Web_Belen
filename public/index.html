@@ -120,7 +120,7 @@
                     <div class="about-text">
                         <h3>¡Hola de nuevo!</h3>
                         <p>
-                            Soy Belén Cutillas Abellán, psicóloga especializada en terapia cognitivo-conductual y contextual. Mi objetivo es que la terapia se convierta en un espacio seguro y sin juicios, donde pueda acompañarte en un proceso de cambio, autoconocimiento y desarrollo personal. Brindándote las herramientas necesarias para que puedas transitar las dificultades con seguridad y autonomía.
+                            Soy Belén Cutillas Abellán, psicóloga especializada en terapia cognitivo-conductual y contextual. Mi objetivo es que la terapia se convierta en un espacio seguro y sin juicios, donde pueda acompañarte en un proceso de cambio, autoconocimiento y desarrollo personal.
                         </p>
                         
                         <div class="skills">
@@ -443,8 +443,7 @@
                         </div>
                     </div>
                     
-                    <form class="contact-form">
-                        <form class="contact-form" action="https://formspree.io/f/xgvzqazn" method="POST">
+                    <form class="contact-form" action="https://formspree.io/f/xgvzqazn" method="POST">
                             <div class="form-group">
                                 <label for="nombre">Nombre</label>
                                 <input type="text" id="nombre" name="nombre" required>
@@ -461,9 +460,15 @@
                                 <label for="mensaje">Mensaje</label>
                                 <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
                             </div>
+                            <div class="form-group" style="margin: 8px 0 16px 0;">
+                                <label style="display:flex; gap:8px; align-items:flex-start; line-height:1.3;">
+                                    <input type="checkbox" name="acepta_politica" required aria-required="true" style="margin-top:4px;">
+                                    <span>He leído y acepto la <a href="privacidad.html" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>. Puedes cambiar tus preferencias de cookies en cualquier momento desde la <a href="cookies.html">Política de Cookies</a>.</span>
+                                </label>
+                            </div>
                             <input type="hidden" name="_replyto" value="belen.c.psicologia@gmail.com">
                             <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                        </form>
+                    </form>
                 </div>
             </div>
         </section>
